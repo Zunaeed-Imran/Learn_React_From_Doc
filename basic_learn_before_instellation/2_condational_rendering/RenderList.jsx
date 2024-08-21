@@ -4,7 +4,7 @@
 
 
 
-
+// first we take data in array
 const product = [
   {title: 'imran', id: 1},
   {title: 'dolon', id: 2},
@@ -12,6 +12,7 @@ const product = [
 ]
 
 
+//  than we use map function.
 function RenderList() {
   const itemlist = product.map(product => 
     <li key={product.id}>
