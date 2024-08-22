@@ -1,5 +1,6 @@
-import Renderlist2 from '../basic_learn_before_instellation/2_condational_rendering/Renderlist2';
-import MyButton from '../basic_learn_before_instellation/4_responding_to_event/MyButton';
+import Renderlist2 from '../basic_practice/2_condational_rendering/Renderlist2';
+import MyButton from '../basic_practice/5_updating_the_screen/MyButton';
+
 import './App.css'
 
 
