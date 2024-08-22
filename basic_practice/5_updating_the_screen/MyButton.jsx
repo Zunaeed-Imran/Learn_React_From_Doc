@@ -1,4 +1,5 @@
 // in this file i will practice usestate, how updating screen. 
+// Notice how each button “remembers” its own count state and doesn’t affect other buttons.
 
 import { useState } from "react"
 
