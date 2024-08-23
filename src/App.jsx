@@ -1,4 +1,5 @@
 import Renderlist2 from '../basic_practice/2_condational_rendering/Renderlist2';
+import MyButton from '../basic_practice/5_updating_the_screen/MyButton';
 
 
 
@@ -14,6 +15,7 @@ function App() {
 
       <Renderlist2 />
 
+      <MyButton />
       
     </>
   );
