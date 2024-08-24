@@ -18,9 +18,11 @@ function MyApp() {
 
   return (
     <div>
-      
+      <button>
+        Clicked {count} times
+      </button>
     </div>
-  )
+  );
 }
 
 export default MyApp
