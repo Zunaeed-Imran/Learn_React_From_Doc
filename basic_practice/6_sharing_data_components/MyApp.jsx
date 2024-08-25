@@ -1,4 +1,4 @@
-
+import PropsTypes from 'prop-types';
 
 
 
@@ -14,3 +14,8 @@ export default function MyApp({count, onClick}) {
   )
 }
 
+
+MyApp.propsTypes = {
+  count:PropsTypes.number,
+  onClick:PropsTypes.func,
+};
