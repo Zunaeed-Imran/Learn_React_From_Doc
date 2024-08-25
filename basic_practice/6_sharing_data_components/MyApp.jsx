@@ -17,7 +17,7 @@ function MyApp({count, onClick}) {
 export default MyApp
 
 
-MyApp.PropTypes = {
+MyApp.propTypes = {
   count: PropTypes.number,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
 };
