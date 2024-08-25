@@ -1,6 +1,7 @@
+
 import { useState } from 'react';
 import Renderlist2 from '../basic_practice/2_condational_rendering/Renderlist2';
-import MyApp from '../basic_practice/6_sharing_data_components/MyApp';
+
 
 
 
@@ -9,11 +10,11 @@ import './App.css'
 
 function App() {
 
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(2);
 
-    function handleClick() {
-      setCount(count + 1);
-    }
+  function MyButton() {
+    setCount(count + 1);
+  }
 
   return (
     <>
@@ -21,9 +22,6 @@ function App() {
 
       <Renderlist2 />
  
-
-      <MyApp count={count} onClick={handleClick} />
-      <MyApp count={count} onClick={handleClick} />
 
     </>
   );
