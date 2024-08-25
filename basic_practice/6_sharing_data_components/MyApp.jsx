@@ -1,21 +1,23 @@
-import PropsTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
+function MyApp({count, onClick}) {
 
-export default function MyApp({count, onClick}) {
 
   return (
 
     <div>
       <button onClick={onClick}>
-        Clicked {count} times
+        count {count} Times
       </button>
     </div>
   )
 }
 
+export default MyApp
 
-MyApp.propsTypes = {
-  count:PropsTypes.number,
-  onClick:PropsTypes.func,
+
+MyApp.PropTypes = {
+  count: PropTypes.number,
+  onClick: PropTypes.func
 };
