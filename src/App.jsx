@@ -1,6 +1,5 @@
 import Renderlist2 from '../basic_practice/2_condational_rendering/Renderlist2';
-// import DoubleButton from '../basic_practice/6_sharing_data_components/DoubleButton';
-// import MyApp from '../basic_practice/6_sharing_data_components/MyApp';
+import MyApp from '../basic_practice/6_sharing_data_components/MyApp';
 
 
 
@@ -16,9 +15,7 @@ function App() {
 
       <Renderlist2 />
 
-      {/* <MyApp /> */}
-
-      {/* <DoubleButton /> */}
+      <MyApp />
 
     </>
   );
