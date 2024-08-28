@@ -6,6 +6,7 @@ import MyApp from '../basic_practice/6_sharing_data_components/MyApp';
 
 import './App.css'
 import ToolBar from '../basic_practice/8_passing_event_handler_as_props/ToolBar';
+import Practice1 from '../basic_practice/8_passing_event_handler_as_props/Practice1';
 
 
 
@@ -27,7 +28,7 @@ function App() {
       <MyApp count={count} onClick={handleClick} />
       <MyApp count={count} onClick={handleClick} />
 
-      <ToolBar />
+      <Practice1 />
 
     </>
   );
