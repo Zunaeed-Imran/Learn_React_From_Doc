@@ -5,7 +5,8 @@ import MyApp from '../basic_practice/6_sharing_data_components/MyApp';
 
 
 import './App.css'
-import ToolBar from '../basic_practice/7_reading_props_in_event_handler/ToolBar';
+import ToolBar from '../basic_practice/8_passing_event_handler_as_props/ToolBar';
+
 
 
 function App() {
