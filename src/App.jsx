@@ -5,6 +5,7 @@ import MyApp from '../basic_practice/6_sharing_data_components/MyApp';
 
 
 import './App.css'
+import ToolBar from '../basic_practice/7_reading_props_in_event_handler/ToolBar';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
 
       <MyApp count={count} onClick={handleClick} />
       <MyApp count={count} onClick={handleClick} />
+
+      <ToolBar />
 
     </>
   );
