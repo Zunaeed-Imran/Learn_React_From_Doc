@@ -1,3 +1,5 @@
+// practice reading props in event handler.
+
 import PropTypes from 'prop-types'; // up to the file
 
 
@@ -16,7 +18,7 @@ function AlertButton({ message, children }) {
 export default function ToolBar() {
   return (
     <div>
-      <AlertButton message={'done'}>Another upload</AlertButton>
+      <AlertButton message={'done'}>l</AlertButton>
 
       <AlertButton message={'check again'}>ok</AlertButton>
     </div>
