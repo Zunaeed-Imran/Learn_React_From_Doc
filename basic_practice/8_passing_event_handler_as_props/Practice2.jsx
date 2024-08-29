@@ -27,6 +27,8 @@ function Practice2() {
 
 export default Practice2;
 
+
+// prop type define.
 Button.propTypes = {
   onClick: PropTypes.func,
   children: PropTypes.string,
