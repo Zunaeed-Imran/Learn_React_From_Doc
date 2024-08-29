@@ -7,6 +7,7 @@ import MyApp from '../basic_practice/6_sharing_data_components/MyApp';
 import './App.css'
 
 import Practice2 from '../basic_practice/8_passing_event_handler_as_props/Practice2';
+import TodoApp from '../basic_practice/9_todo_app/TodoApp';
 
 
 
@@ -29,6 +30,8 @@ function App() {
       <MyApp count={count} onClick={handleClick} />
 
       <Practice2 />
+
+      <TodoApp />
 
     </>
   );
