@@ -9,3 +9,6 @@
   count: PropTypes.number,
   onClick: PropTypes.func,
 };
+
+2. Learn how to Setup React router Dom on a React Project.
+- [Raect router](https://youtu.be/oTIJunBa6MA?si=SyKQcl_aLuXbGULK)
